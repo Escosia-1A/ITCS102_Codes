@@ -1,0 +1,16 @@
+Hobbies = " " #blank string
+
+hb = input("What are your hobbies? ")
+
+Hobbies += hb +", "
+
+hb = input("What else? ")
+
+Hobbies += hb + ", "
+
+hb = input("What else? ")
+
+Hobbies += hb + "."
+
+
+print("My hobbies are",Hobbies)

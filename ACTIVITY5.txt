@@ -1,0 +1,21 @@
+#OPERATORS
+#Arithmetic Operator
+# + - Addition
+# - - Subtraction
+# * - Multiplication
+# / - Division
+# // - Floor division
+# ** - Exponentation
+# % - Modulos
+
+a = 150
+b = 400
+
+
+sum = a + b
+Subtraction = a - b
+Multiplication = a * b
+
+print("The sum of",a,"and",b,"is",sum)
+print("The difference of",a,"and",b,"is",difference)
+print(Multiplication)
