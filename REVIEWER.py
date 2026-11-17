@@ -41,7 +41,5 @@ if age >= 21 and has_defaults == False and years >= 2.0:
         print("Credit Score too low")
     else:
         print("INVALID")
-    else:
-        print("CREDIT SCORE CONSIDERED LOW")
 else:
     print("BASELINE FAILED")

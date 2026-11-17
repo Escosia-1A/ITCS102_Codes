@@ -1,0 +1,4 @@
+Senders_Name = input("What's your name? ")
+Item = input("Item: ")
+isFragile = bool("Is it Fragile? ")
+if_yes: print("careful")

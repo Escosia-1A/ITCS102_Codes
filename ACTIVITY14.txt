@@ -1,0 +1,31 @@
+#age integer)
+#is_employed (boolean)
+#credit_score (integer)
+#annual_income (float)
+#has_collateral (boolean)
+
+age = int(input("How old are you? "))
+is_employed = bool(input("Are you employed? "))
+credit_score = int(input("What is your credit score? "))
+annual_income = float(input("WWhat is your annual salary? "))
+has_collateral = bool(input("Do you have any collateral? (True / False) "))
+
+if age >=21 and is_employed == True:
+	print("Approved")
+	if credit_score >=750:
+		pass
+		if annual_income >=100000:
+			base_rate = 4.5
+			print(f"Your base interest rate is {base_rate}%")
+		else:
+			base_rate = 5.0
+			print(f"Your base interest rate is {base_rate}%")
+elif credit_score >=600 and has_collateral == False:
+	print("Approved")
+	if credit_score >=600:
+		pass
+		if annual_income >=100000:
+			base_rate = 9.0
+			print(f"Your base interest rate is {base_rate}%")
+else:
+	print("sorry")
